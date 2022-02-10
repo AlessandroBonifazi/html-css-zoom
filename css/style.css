@@ -57,7 +57,7 @@ main {
     padding: 3px;
 }
 
-/* Footer Nav */
+/** Footer **/
 footer {
     height: 9vh;
     background-color: #222222;
@@ -66,6 +66,7 @@ footer {
     justify-content: space-between;
 }
 
+/* mic video and buttons */
 .mic-cam {
     display: flex;
 }
@@ -93,6 +94,7 @@ footer a {
     justify-content: center;   
 }
 
+/* main nav */
 nav ul {
     list-style-type: none;
     display: flex;
@@ -102,6 +104,7 @@ ul li {
     margin: 0px 10px;
 }
 
+/* close call button */
 .button-wrapper {
     height: 100%;
     padding: 0px 15px;
