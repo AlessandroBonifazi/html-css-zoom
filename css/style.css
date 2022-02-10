@@ -4,3 +4,15 @@
     padding: 0px;
     box-sizing: border-box;
 }
+
+body {
+    font-family: "sans-serif, Font Awesome 5 Free";
+    color: white;
+}
+
+/* Header */
+header {
+    height: 5vh;
+    width: 100vw;
+    background-color: black;
+}
