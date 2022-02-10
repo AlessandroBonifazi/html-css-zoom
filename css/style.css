@@ -63,27 +63,57 @@ footer {
     background-color: #222222;
     display: flex;
     align-items: center;
+    justify-content: space-between;
 }
 
 .mic-cam {
+    display: flex;
+}
+
+.button {
     margin: 0px 5px;
 }
-.mic-cam a {
+
+footer a {
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
 .icon {
-    font-size: 30px;
+    font-size: 25px;
     margin-bottom: 3px;
 }
 
 .more-options {
     height: 30px;
-    width: 30px;
+    margin: 0px 5px;
     display: flex;
     align-items: center;
-    justify-content: center;
-    
+    justify-content: center;   
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+}
+
+ul li {
+    margin: 0px 10px;
+}
+
+.button-wrapper {
+    height: 100%;
+    padding: 0px 15px;
+    background-color: #8f8c8c62;
+    display: flex;
+    align-items: center;   
+}
+
+.button-wrapper a {
+    color: red;
+}
+
+#green {
+    color: #4bc800;
 }
