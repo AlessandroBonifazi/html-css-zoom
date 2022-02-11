@@ -40,6 +40,7 @@ main {
     display: flex;
     flex-wrap: wrap;
     align-content: flex-start;
+    overflow-y: auto;
 }
 
 .user {
